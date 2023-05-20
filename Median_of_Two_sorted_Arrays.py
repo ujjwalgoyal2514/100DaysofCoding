@@ -6,7 +6,7 @@ class Solution:
                 return self.kth(A, B, l // 2)
             else:
                 return (self.kth(A, B, l // 2) + self.kth(A, B, l // 2 - 1)) / 2.   
-
+#Making a new function
     def kth(self, a, b, k):
             if not a:
                 return b[k]
